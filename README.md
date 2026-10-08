@@ -1,8 +1,8 @@
 # 🚌 Mobilidade Urbana no Brasil — Análise e Visualização de Dados com Python
 
-**Disciplina:** Linguagens de Programação — Análise e Visualização de Dados com Python (Avaliação G1)
-**Aluna:** Juliana Neto Sá
-**Professor:** Alexandre Neves Louzada
+**Disciplina:** Linguagens de Programação — Análise e Visualização de Dados com Python (Avaliação G1) 
+**Aluna:** Juliana Neto Sá 
+**Professor:** Alexandre Neves Louzada 
 
 ## Problema
 Analisar uma base simulada de mobilidade urbana no Brasil para identificar padrões, comparar grupos e relacionar variáveis, gerando KPIs e visualizações que apoiem decisões sobre transporte.
