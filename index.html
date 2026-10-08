@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mobilidade Urbana no Brasil — Projeto G1</title>
+<style>
+:root{--bg:#f7f9fb;--fg:#1d2733;--card:#fff;--ac:#2a9d8f;--ac2:#264653}
+@media(prefers-color-scheme:dark){:root{--bg:#121820;--fg:#e8edf2;--card:#1b2530}}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
+header{background:linear-gradient(135deg,var(--ac2),var(--ac));color:#fff;padding:56px 20px;text-align:center}
+header h1{margin:0 0 8px;font-size:2rem}header p{margin:4px 0;opacity:.95}
+main{max-width:960px;margin:auto;padding:24px 20px}
+section{background:var(--card);border-radius:12px;padding:20px 24px;margin:18px 0;box-shadow:0 1px 6px rgba(0,0,0,.08)}
+h2{margin-top:0;color:var(--ac)}
+.tags span{display:inline-block;background:var(--ac2);color:#fff;border-radius:20px;padding:3px 12px;margin:3px;font-size:.85rem}
+.btns a{display:inline-block;background:var(--ac);color:#fff;text-decoration:none;padding:10px 18px;border-radius:8px;margin:4px 6px 4px 0;font-weight:600}
+footer{text-align:center;padding:24px;opacity:.7;font-size:.9rem}
+</style>
+</head>
+<body>
+<header>
+  <h1>🚌 Mobilidade Urbana no Brasil</h1>
+  <p>Análise e Visualização de Dados com Python — Avaliação G1</p>
+  <p><strong>Aluna:</strong> Juliana Neto Sá &nbsp;|&nbsp; <strong>Professor:</strong> Alexandre Neves Louzada</p>
+  <p><strong>Disciplina:</strong> Linguagens de Programação</p>
+</header>
+<main>
+  <section><h2>O problema</h2>
+    <p>A mobilidade urbana impacta o tempo de deslocamento, o custo de vida, as emissões e a qualidade de vida nas cidades. Este projeto analisa uma base simulada de mobilidade urbana no Brasil para identificar padrões, comparar grupos e relacionar variáveis.</p></section>
+  <section><h2>Base de dados</h2>
+    <p><code>simulacao_mobilidade_urbana_brasil.csv</code>, do repositório <a href="https://github.com/AlexandreLouzada/Dados-Simulados-G2/tree/main/datasets_g2_30_temas">Dados-Simulados-G2</a> (dados simulados para fins didáticos): 4.440 registros mensais de 2015 a 2024, 37 cidades, 20 UFs, 5 regiões e 6 meios de transporte, com passageiros, tempo de deslocamento, lotação, velocidade, emissão de CO₂, tarifa e nível de congestionamento.</p></section>
+  <section><h2>O que foi feito</h2>
+    <ul><li>Limpeza e preparação da base (duplicados, nulos, datas)</li>
+    <li>Engenharia de atributos e análise exploratória</li>
+    <li>KPIs dinâmicos e gráficos com Matplotlib e Seaborn</li>
+    <li>Dashboard em Streamlit com filtros múltiplos, abas e upload de CSV</li>
+    <li>Consumo da API do IBGE, banco SQLite relacional (SQLAlchemy), séries temporais e correlação estatística</li></ul></section>
+  <section><h2>Tecnologias</h2>
+    <div class="tags"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span><span>Streamlit</span><span>SQLAlchemy</span><span>SQLite</span><span>GitHub</span></div></section>
+  <section><h2>Links do projeto</h2>
+    <div class="btns">
+      <a href="https://SEU-APP.streamlit.app">📊 Dashboard</a>
+      <a href="https://github.com/SEU-USUARIO/projeto-g1">💻 Repositório</a>
+      <a href="https://github.com/SEU-USUARIO/projeto-g1/blob/main/notebooks/analise_mobilidade.ipynb">📓 Notebook</a>
+    </div></section>
+</main>
+<footer>Juliana Neto Sá · Linguagens de Programação · Prof. Alexandre Neves Louzada</footer>
+</body>
+</html>
